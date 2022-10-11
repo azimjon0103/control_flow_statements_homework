@@ -1,6 +1,3 @@
-from re import S
-
-
 def main(a):
     """
     Given an integer a, check the following conditions:
@@ -26,4 +23,4 @@ def main(a):
     if  a==0:
         sun="the number is zero"             
     return sun
-print(main(57))    
+print(main(67))    
