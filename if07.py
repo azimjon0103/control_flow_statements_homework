@@ -22,8 +22,8 @@ def main(a):
     if  a%2==1 and a<0:
         sun="negative odd number " 
     if  a%2==0 and a<0:
-        sun="negative odd number " 
+        sun="negative even number " 
     if  a==0:
         sun="the number is zero"             
     return sun
-print(main(4))    
+print(main(-58))    
