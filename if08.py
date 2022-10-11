@@ -11,4 +11,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if  a%2==1 and a>0:
+        sun="two-digit odd number "
+    if  a%2==0 and a>0:
+        sun="two-digit even number "  
+    if  a%2==1 and a>0:
+        sun="three-digit odd number " 
+    if  a%2==0 and a>0:
+        sun="three-digit even number "   
+    return sun
+print(main(322))    
