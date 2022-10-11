@@ -23,4 +23,4 @@ def main(a):
     if  a==0:
         sun="the number is zero"             
     return sun
-print(main(67))    
+print(main(-24))    
