@@ -26,4 +26,4 @@ def main(a):
     if  a==0:
         sun="the number is zero"             
     return sun
-print(main(-58))    
+print(main(57))    
