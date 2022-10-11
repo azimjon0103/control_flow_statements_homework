@@ -8,4 +8,12 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
-    return
+    sun=0
+    if a>0:
+        sun+=1
+    if b>0:
+        sun+=1
+    if c>0:
+        sun+=1            
+    return sun
+print(main(5,6,8))    
