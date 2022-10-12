@@ -1,6 +1,3 @@
-from re import S
-
-
 def main(a):
     """
     The two-digit integer is given.
