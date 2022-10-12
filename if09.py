@@ -13,8 +13,8 @@ def main(a):
     sun2=a//10
     sun=sun1*10+sun2*1
     if a>sun or a==sun:
-        sum="True"
+        x="True"
     else  :
-        sum="False"    
-    return sum
-print(main(25))    
+        x="False"    
+    return x
+print(main(21))    
