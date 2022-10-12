@@ -13,8 +13,8 @@ def main(a):
     sun2=a//10
     sun=sun1*10+sun2*1
     if a>sun or a==sun:
-        x="True"
+        x=True
     else  :
-        x="False"    
-    return x
+        x=False 
+    return bool(x)
 print(main(21))    
