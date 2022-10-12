@@ -15,7 +15,7 @@ def main(a):
     sun1=a%10
     sun2=a//10
     sun=sun1*10+sun2*1
-    if a>=sun:
+    if a>sun or a==sun:
         x="True"
     else  :
         x="False"    
